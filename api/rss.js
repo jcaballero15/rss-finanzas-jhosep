@@ -1,4 +1,4 @@
-// api/rss.js
+// api/rss.xml
 export default function handler(req, res) {
   res.setHeader("Content-Type", "application/rss+xml");
   const feed = `<?xml version="1.0" encoding="UTF-8" ?>
