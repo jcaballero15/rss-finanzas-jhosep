@@ -18,4 +18,9 @@ export default function handler(req, res) {
       <b>💵 Bonos</b><br>
       Tasa 10a USA sube 4 bps — duration afectada<br>
       <i>📎 <a href="https://jhosep-finanzas.vercel.app/rss.xml">Ver más</a></i>
-    ]]></descriptio
+    ]]></description>
+  </item>
+</channel>
+</rss>`;
+  res.status(200).send(feed);
+}
